@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#fb7185"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity=".12" stroke="#94a3b8"><path d="M0 150H1600M0 300H1600M0 450H1600M0 600H1600M0 750H1600"/><path d="M200 0V900M400 0V900M600 0V900M800 0V900M1000 0V900M1200 0V900M1400 0V900"/></g>
+  <text x="100" y="92" fill="#f8fafc" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="48" font-weight="800">말투별 GPT-4o 평균 정확도</text>
+  <text x="100" y="138" fill="#94a3b8" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">50개 객관식 문항 × 각 톤 10회 · arXiv:2510.04950v1 Table 2</text>
+  <rect x="90" y="180" width="1420" height="590" rx="28" fill="#0f172a" stroke="#334155" stroke-width="2" filter="url(#shadow)"/>
+  <g font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif">
+    <text x="335" y="238" fill="#64748b" font-size="19">평균 정확도 (가로축은 78%부터 시작)</text>
+    <g stroke="#334155" stroke-width="2"><path d="M430 260V690"/><path d="M620 260V690"/><path d="M810 260V690"/><path d="M1000 260V690"/><path d="M1190 260V690"/><path d="M1380 260V690"/></g>
+    <g fill="#94a3b8" font-size="18" text-anchor="middle"><text x="430" y="724">78%</text><text x="620" y="724">80%</text><text x="810" y="724">82%</text><text x="1000" y="724">84%</text><text x="1190" y="724">86%</text><text x="1380" y="724">88%</text></g>
+    <g font-size="27" fill="#e2e8f0" text-anchor="end"><text x="385" y="314">매우 정중</text><text x="385" y="394">정중</text><text x="385" y="474">중립</text><text x="385" y="554">무례</text><text x="385" y="634">매우 무례</text></g>
+    <g>
+      <rect x="430" y="282" width="266" height="38" rx="19" fill="#22d3ee" opacity=".9"/><circle cx="696" cy="301" r="9" fill="#f8fafc"/><text x="718" y="309" fill="#f8fafc" font-size="27" font-weight="800">80.8%</text><text x="1050" y="309" fill="#94a3b8" font-size="21">범위 80–82</text>
+      <rect x="430" y="362" width="323" height="38" rx="19" fill="#38bdf8" opacity=".9"/><circle cx="753" cy="381" r="9" fill="#f8fafc"/><text x="775" y="389" fill="#f8fafc" font-size="27" font-weight="800">81.4%</text><text x="1050" y="389" fill="#94a3b8" font-size="21">범위 80–82</text>
+      <rect x="430" y="442" width="399" height="38" rx="19" fill="#818cf8" opacity=".9"/><circle cx="829" cy="461" r="9" fill="#f8fafc"/><text x="851" y="469" fill="#f8fafc" font-size="27" font-weight="800">82.2%</text><text x="1050" y="469" fill="#94a3b8" font-size="21">범위 82–84</text>
+      <rect x="430" y="522" width="456" height="38" rx="19" fill="#c084fc" opacity=".9"/><circle cx="886" cy="541" r="9" fill="#f8fafc"/><text x="908" y="549" fill="#f8fafc" font-size="27" font-weight="800">82.8%</text><text x="1050" y="549" fill="#94a3b8" font-size="21">범위 82–84</text>
+      <rect x="430" y="602" width="646" height="38" rx="19" fill="#fb7185" opacity=".92"/><circle cx="1076" cy="621" r="9" fill="#f8fafc"/><text x="1098" y="629" fill="#f8fafc" font-size="27" font-weight="800">84.8%</text><text x="1260" y="629" fill="#94a3b8" font-size="21">범위 82–86</text>
+    </g>
+  </g>
+  <rect x="90" y="798" width="1420" height="62" rx="18" fill="#172033" stroke="#475569"/>
+  <text x="800" y="838" text-anchor="middle" fill="#f8fafc" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700">4.0%p 차이는 50문항 기준 약 두 문제다. 실행 범위는 서로 겹친다.</text>
+</svg>
